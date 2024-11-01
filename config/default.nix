@@ -12,6 +12,7 @@
 		./cmp.nix
 		./undotree.nix
 		./whitespace.nix
+		./lualine.nix
 	];
 
 	globals.mapleader = " ";
