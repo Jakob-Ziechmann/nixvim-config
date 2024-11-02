@@ -13,6 +13,8 @@
 		./undotree.nix
 		./whitespace.nix
 		./lualine.nix
+		./autocmd.nix
+		./textYankPost.nix
 	];
 
 	globals.mapleader = " ";

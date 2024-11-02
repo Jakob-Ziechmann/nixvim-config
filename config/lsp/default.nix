@@ -15,10 +15,12 @@ in {
 				gr.action = "references";
 				gD.action = "declaration";
 				gI.action = "implementation";
+				"<leader>ca".action = "code_action";
 				"<leader>rn" = "rename";
 			};
 			diagnostic = {
-				"<leader>cd".action = "open_float";
+				"<leader>e".action = "open_float";
+				"<leader>q".action = "setloclist";
 				"[d".action = "goto_next";
 				"]d".action = "goto_prev";
 			};
