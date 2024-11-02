@@ -1,0 +1,36 @@
+{pkgs, ...}: let
+	map = mode: key: action: { mode = mode; key = key; action = action; };
+in {
+	imports = [
+		./servers.nix
+	];
+
+	plugins.lsp = {
+		enable = true;
+		
+		keymaps = {
+			silent = true;
+			lspBuf = {
+				gd.action = "definition";
+				gr.action = "references";
+				gD.action = "declaration";
+				gI.action = "implementation";
+				"<leader>rn" = "rename";
+			};
+			diagnostic = {
+				"<leader>cd".action = "open_float";
+				"[d".action = "goto_next";
+				"]d".action = "goto_prev";
+			};
+		};
+	};
+
+	plugins = {
+		# lsp-lines.enable = true;
+		lsp-format.enable = true;
+	};
+
+	extraPlugins = with pkgs.vimPlugins; [
+    ansible-vim
+  ];
+}

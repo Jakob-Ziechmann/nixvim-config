@@ -8,7 +8,7 @@
 		./telescope.nix
 		./treesitter.nix
 		./cmp
-		./lsp.nix
+		./lsp
 		./catppuccin.nix
 		./undotree.nix
 		./whitespace.nix
