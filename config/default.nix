@@ -7,9 +7,9 @@
 		./comment.nix
 		./telescope.nix
 		./treesitter.nix
-		./catppuccin.nix
+		./cmp
 		./lsp.nix
-		./cmp.nix
+		./catppuccin.nix
 		./undotree.nix
 		./whitespace.nix
 		./lualine.nix
