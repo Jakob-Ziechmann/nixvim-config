@@ -15,6 +15,7 @@
 		./lualine.nix
 		./autocmd.nix
 		./textYankPost.nix
+		./gitsigns.nix
 	];
 
 	globals.mapleader = " ";
