@@ -14,10 +14,10 @@
 	keymaps = [
 		{
 			action = "<cmd>GitBlameToggle<CR>";
-				key = "<leader>b";
-				options = {
-					silent = true;
-				};
+			key = "<leader>b";
+			options = {
+				silent = true;
+			};
 		}
 	];
 }

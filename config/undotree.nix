@@ -12,14 +12,11 @@
 
 	keymaps = [
 		{
-			mode = "n";
+			action = "<cmd>UndotreeToggle<CR><cmd>UndotreeFocus<CR>";
 			key = "<leader>u";
-			action = ''
-				function ()
-					vim.cmd.UndotreeToggle()
-					vim.cmd.UndotreeFocus()
-				end
-			'';
+			options = {
+				silent = true;
+			};
 		}
 	];
 }
