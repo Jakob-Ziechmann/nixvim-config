@@ -16,6 +16,7 @@
 		./autocmd.nix
 		./textYankPost.nix
 		./git
+		./refactoring.nix
 	];
 
 	globals.mapleader = " ";
