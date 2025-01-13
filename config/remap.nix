@@ -10,8 +10,10 @@ in {
 		(map "i" "oeq" "ö")
 		(map "i" "szz" "ß")
 
-		(map "i" "Aeq" "Ä")
-		(map "i" "Ueq" "Ü")
-		(map "i" "Oeq" "Ö")
+		(map "i" "AEQ" "Ä")
+		(map "i" "UEQ" "Ü")
+		(map "i" "OEQ" "Ö")
+
+		(map "i" "<C-H>" "<C-w>")
 	];
 }
